@@ -1,0 +1,49 @@
+﻿生成启动时间为 2012/5/2 9:47:25。
+     1>项目“D:\Work\vibeBS\vibeBS\vibeBS.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\vibeBS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Work\opencv\include\ /ID:\Work\opencv\include\opencv\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bs_post_processing.cpp cluster.cpp main.cpp
+         bs_post_processing.cpp
+     1>bs_post_processing.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
+     1>bs_post_processing.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+         cluster.cpp
+     1>cluster.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>cluster.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>cluster.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+     1>cluster.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+     1>cluster.cpp(19): warning C4101: “j”: 未引用的局部变量
+     1>cluster.cpp(162): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+     1>D:\Work\opencv\include\opencv2/flann/logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>D:\Work\opencv\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\Work\opencv\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>main.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\vibeBS\Release\vibeBS.exe" /INCREMENTAL:NO /NOLOGO vfw32.lib comctl32.lib "D:\Work\opencv\lib\Release\*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\vibeBS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\vibeBS\Release\vibeBS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\vibeBS\Release\vibeBS.lib" /MACHINE:X86 Release\bs_post_processing.obj
+         Release\cluster.obj
+         Release\handle_param.obj
+         Release\image_loc.obj
+         Release\main.obj
+         Release\vibeBackgroundOwn.obj
+         正在生成代码
+         已完成代码的生成
+         vibeBS.vcxproj -> D:\Work\vibeBS\Release\vibeBS.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Work\vibeBS\Release\vibeBS.exe;#1" /manifest Release\vibeBS.exe.intermediate.manifest
+       PostBuildEvent:
+         copy  D:\Work\opencv\dll\*.dll D:\Work\vibeBS\Release\
+         :VCEnd
+         D:\Work\opencv\dll\opencv_ffmpeg.dll
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Release\vibeBS.unsuccessfulbuild”。
+         正在对“Release\vibeBS.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Work\vibeBS\vibeBS\vibeBS.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.35
